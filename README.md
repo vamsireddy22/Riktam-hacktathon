@@ -1,7 +1,7 @@
 # Riktam-hacktathon
 
 # Technology Stack
- - MERN 
+- MERN 
   - MangoDB
   - Express
   - React
