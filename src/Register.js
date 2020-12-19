@@ -50,7 +50,7 @@ const Register=()=>{
           />
         </Form.Group>
         <Button block size="lg" type="submit" disabled={!validateForm()}>
-          Login
+          Register
         </Button>
       </Form>
     </div>
