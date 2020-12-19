@@ -19,6 +19,7 @@ const Register=()=>{
     }
 
     return(
+      <section id="Register">
         <div>
             <center><h1>Welcome and Login with your credentials</h1></center>
             <div className="Login">
@@ -54,7 +55,7 @@ const Register=()=>{
         </Button>
       </Form>
     </div>
-        </div>
+        </div></section>
         
     )
 }
