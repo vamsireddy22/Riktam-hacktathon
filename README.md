@@ -13,7 +13,7 @@ Due to power-cut in home unable to spend more time on the project, meanwhile I h
   - Login
   - Register
   - Uploading a picture 
-- Designed schema and made register page as working
+- Designed database schema and made register page as working
 
 # Challenges of Day-1 
 - Not much familiar with the technology stack like I am new to MangoDB I learnt MangoDB in two days by wathcing youtube videos. 
