@@ -18,3 +18,10 @@ Due to power-cut in home unable to spend more time on the project, meanwhile I h
 # Challenges of Day-1 
 - Not much familiar with the technology stack like I am new to MangoDB I learnt MangoDB in two days by wathcing youtube videos. 
 - Adding CSS to webpages 
+
+# Tasks to complete for Day-2
+- Design and developing the view pictures pages
+- Designing the database scheme for view page
+- Adding CSS to Web-App
+- Adding Disqus for Upvoting and realtime commenting section to make work simpler
+- Finishing the project and recording the video and wrap-up the hackathon
