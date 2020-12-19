@@ -12,6 +12,7 @@ const Upload=()=>{
     const [pic, setPic]=useState("");
 
     function handleSubmit(event){
+      console.log("Done")
         event.preventDefault();
     }
 

@@ -1,7 +1,5 @@
 import React,{useState} from "react";
-import "bootstrap/dist/css/bootstrap.css";
-import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
+import axios from "axios";
 import './App.css'
 
 
@@ -14,49 +12,38 @@ const Register=()=>{
         return email.length>0 && password.lenght>0;
     }
 
-    function handleSubmit(event){
-        event.preventDefault();
+    function handleSubmit(){
+      const email = document.getElementById('email').value;
+        const password = document.getElementById('password').value;
+        const name = document.getElementById('name').value;
+        const userDetails = {
+            email,
+            password,
+            name
+        }
+        axios.post("http://localhost:5000/user/signup",userDetails)
+            .then(res=>{
+                console.log(res);
+            })
     }
 
     return(
-      <section id="Register">
+      
         <div>
-            <center><h1>Welcome and Login with your credentials</h1></center>
-            <div className="Login">
-            <Form onSubmit={handleSubmit}>
-            <Form.Group size="lg" controlId="email">
-            <Form.Label>Name</Form.Label>
-          <Form.Control
-            autoFocus
-            type="name"
-            value={name}
-            onChange={(e) => setName(e.target.value)}
-          />
-        </Form.Group>
-            <Form.Group size="lg" controlId="email">
-            <Form.Label>Email</Form.Label>
-          <Form.Control
-            autoFocus
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-          />
-        </Form.Group>
-        <Form.Group size="lg" controlId="password">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-          />
-        </Form.Group>
-        <Button block size="lg" type="submit" disabled={!validateForm()}>
-          Register
-        </Button>
-      </Form>
+            <center><h1>Welcome and Register</h1></center>
+      <div> Name:
+        <input type="textfield" id="name"></input>
+      </div>
+      <div> Email:
+        <input type="textfield" id="email"></input>
+      </div>
+      <div> Password:
+        <input type="password" id="password"></input>
+      </div>
+      <div> 
+        <button type="button" onClick={()=>handleSubmit()}>Register</button>
+      </div>
     </div>
-        </div></section>
-        
     )
 }
 
