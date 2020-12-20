@@ -25,3 +25,18 @@ Due to power-cut in home unable to spend more time on the project, meanwhile I h
 - Adding CSS to Web-App
 - Adding Disqus for Upvoting and realtime commenting section to make work simpler
 - Finishing the project and recording the video and wrap-up the hackathon
+
+# Day - 2
+Due to some personal problems unable to spend much time on day - 2 of the hackathon. 
+
+# Learnings during the hackathon time
+Though I am not well versed in MERN stack I have decided to do the project in this stack. It helped me to learn something. 
+- React components
+- MongoDB schema 
+- Basics of Node js
+
+# Wrap Up note
+Though the I haven't finished the project 100%, I have enjoyed the developing the application and solving this problem. 
+
+# Thank you!
+
