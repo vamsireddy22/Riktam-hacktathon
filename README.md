@@ -1,4 +1,7 @@
 # Riktam-hacktathon
+- Develop an android or webapp to problem status viewer like someone from group will upload the problem in their street. If that problem upvoted by more than 100 people. Then admin will decide to take the action on it.
+- Admin has to send that problem to the concerned department head to resolve the issue. 
+
 
 # Technology Stack
 - MERN 
